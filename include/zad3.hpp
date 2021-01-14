@@ -4,6 +4,8 @@
 
 // tutaj funkcja polejSosem
 template <typename typ>
-std::size_t polejSosem(Tagiatelle& t, typ &sos) {
-	return polej(sos, t);
+std::size_t polejSosem(const Tagiatelle& t, const typ &sos) {
+	unsigned double wynik=polej(
+	polej(sos, t)polej(sos, t)
+	return wynik;
 }
