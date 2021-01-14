@@ -10,7 +10,7 @@ public:
 };
 // Zad1
 // tutaj definicja klasy Tagliatelle
-class Tagliatelle {
+class Tagliatelle : public Makaron{
 private:
 	double L;
 	double W;
